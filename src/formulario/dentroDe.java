@@ -5,6 +5,14 @@
  */
 package formulario;
 
+/**
+ *
+ * @author AlbertoVega
+ * @version 1.0
+ * @see https://github.com/AlbertoVega72
+ */
+
+
 import java.sql.ResultSet;
 import javax.swing.*;
 import java.awt.event.*;
@@ -66,6 +74,17 @@ public class dentroDe extends JFrame implements ActionListener {
         setVisible(true);
         
     }
+    
+     /**
+     * Método que obtiene el valor de los JTextField y los  manda a la base de datos lo recopilado
+     * @param nombre String tomado de t1
+     * @param apellidop String tomado de t2
+     * @param apellidom String tomado de t3
+     * @param escul String tomado de t4
+     * @return nombre, apellidop, apellidom,escul tomado de los JTextField
+     * @since incluido desde la version 1.0
+     */
+    
     
     public void llama(){
         cDatos conex = new cDatos();
