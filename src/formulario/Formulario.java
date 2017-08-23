@@ -7,7 +7,7 @@ package formulario;
 
 /**
  *
- * @author Alumno
+ * @author Alberto
  */
 public class Formulario {
 
